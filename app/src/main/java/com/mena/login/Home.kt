@@ -66,7 +66,7 @@ class Home : AppCompatActivity() {
         val client = OkHttpClient()
 
         val request = Request.Builder()
-            .url("http://185.96.160.51/user/api/index.php/api/service")
+            .url("http://92.119.61.5/user/api/index.php/api/service")
             .header("Content-Type", "application/x-www-form-urlencoded")
             .header("Authorization", "Bearer $token")
             .get()
@@ -141,7 +141,7 @@ class Home : AppCompatActivity() {
         val client = OkHttpClient()
 
         val request = Request.Builder()
-            .url("http://185.96.160.51/user/api/index.php/api/dashboard")
+            .url("http://92.119.61.5/user/api/index.php/api/dashboard")
             .header("Content-Type", "application/x-www-form-urlencoded")
             .header("Authorization", "Bearer $token")
             .get()
@@ -179,7 +179,7 @@ class Home : AppCompatActivity() {
         val client = OkHttpClient()
 
         val request = Request.Builder()
-            .url("http://185.96.160.51/user/api/index.php/api/user")
+            .url("http://92.119.61.5/user/api/index.php/api/user")
             .header("Content-Type", "application/x-www-form-urlencoded")
             .header("Authorization", "Bearer $token")
             .get()

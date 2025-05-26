@@ -15,7 +15,7 @@ class ApiService {
             .addFormDataPart("password", password)
             .build()
         val request = Request.Builder()
-            .url("http://185.96.160.51/user/api/index.php/api/auth/login")
+            .url("http://92.119.61.5/user/api/index.php/api/auth/login")
             .post(body)
             .build()
         client.newCall(request).enqueue(object : Callback {

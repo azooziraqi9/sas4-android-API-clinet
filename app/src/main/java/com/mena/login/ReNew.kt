@@ -47,7 +47,7 @@ class ReNew : AppCompatActivity() {
             .addFormDataPart("pin", pin)
             .build()
         val request = Request.Builder()
-            .url("http://185.96.160.51/user/api/index.php/api/redeem")
+            .url("http://92.119.61.5/user/api/index.php/api/redeem")
             .post(requestBody)
             .addHeader("Authorization", "Bearer $token")
             .build()
